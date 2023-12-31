@@ -3,7 +3,8 @@ import beachVideo from '../asset/video/ocean.mp4'
 import Hero from '../components/Hero/Hero'
 import { BannerPic } from '../components/BannerPic/BannerPic'
 import Places from '../components/Places/Places'
-
+import bannerImg from '../asset/cover-women.jpg'
+import Blogs from './Blogs'
 const Home = () => {
   return (
     
@@ -16,6 +17,8 @@ const Home = () => {
         <Hero/>
       </div>
       <Places/>
+      <BannerPic Img={bannerImg}/>
+      <Blogs/>
     </div>
     
   )
