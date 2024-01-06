@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Img1 from '../../asset/places/beach-4865786_1280.jpg';
 import Img2 from '../../asset/places/taj-mahal-3654227_1280.jpg';
 import Img3 from '../../asset/places/nature-3733115_1280.jpg';
@@ -9,6 +9,7 @@ import { PlaceCard } from './PlaceCard';
 
 
 const Places = () => {
+
     const PlacesData = [
         {
           img: Img1,
@@ -63,15 +64,17 @@ const Places = () => {
           type: "Cultural Relax",
         },
       ];
+     
   return (
    <div className='bg-gary-50 py-10'>
+   
     <div className='container'>
         <div className='border-l-8 border-primaryColor/70'>
             <h1 className='font-bold text-3xl px-3'>Best Place to Visit</h1>
         </div>
         <div className='grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
         {PlacesData.map((places,index)=>(
-            <PlaceCard  key={index} {...places}/>
+            <PlaceCard  key={index} {...places} />
         ))}
         </div>
     </div>

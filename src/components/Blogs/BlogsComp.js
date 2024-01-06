@@ -43,11 +43,11 @@ const BlogsComp = () => {
         </div>
          <div className='shadow-lg  mt-7 hover:shadow-lg '>
           <div className='grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
-            {BlogsData.map((items)=>(
+            {/* {BlogsData.map((items, i)=>(
 
-              <BlogsCard items={items}/>
+              <BlogsCard  items={items}/>
 
-            ))}
+            ))} */}
 
           </div>
 
