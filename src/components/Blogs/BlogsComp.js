@@ -2,7 +2,7 @@ import React from 'react'
 import Img1 from '../../asset/pictures/desi1.jpg'
 import Img2 from '../../asset/pictures/desi2.jpg'
 import Img3 from '../../asset/pictures/desi3.jpg'
-import BlogsCard from './BlogsCard'
+// import BlogsCard from './BlogsCard'
 
 const BlogsComp = () => {
   
