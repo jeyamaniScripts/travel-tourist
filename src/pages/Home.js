@@ -1,6 +1,6 @@
 import React from 'react'
 import beachVideo from '../asset/video/ocean.mp4'
-import footer from '../asset/video/footer.mp4'
+// import footer from '../asset/video/footer.mp4'
 import Hero from '../components/Hero/Hero'
 import { BannerPic } from '../components/BannerPic/BannerPic'
 import Places from '../components/Places/Places'

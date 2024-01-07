@@ -1,6 +1,6 @@
-import React, { createElement } from "react";
+import React from "react";
 import footerVid from "../asset/video/footer.mp4";
-import logo from '../asset/pictures/logo2.png'
+// import logo from '../asset/pictures/logo2.png'
 
 
 const Footer = () => {
